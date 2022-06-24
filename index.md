@@ -8,8 +8,8 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Analyzing Spotify Features of Taylor Swift's Music](/project1_swift)
+<img src="images/project1_images/danceability.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
