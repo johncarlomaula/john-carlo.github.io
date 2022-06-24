@@ -1,8 +1,8 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Analyzing Spotify Features of Taylor Swift's Music
+## Analyzing Spotify Features of Taylor Swift's Music
 
 [Blog](/project1_swift)
 <img src="images/project1_images/danceability_plot.png?raw=true"/>
