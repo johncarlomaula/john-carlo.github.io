@@ -4,7 +4,10 @@
 
 ## Analyzing Spotify Features of Taylor Swift's Albums
 
-[Blog](/project1_swift)
+
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project1_swift)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
+[![Notebook](https://img.shields.io/badge/Jupyter-Open%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/taylorswift-spotify-features-project/blob/main/swift_analysis.ipynb)
 
 In this project, I visualize the Spotify features of Taylor Swift's albums.
 
@@ -13,7 +16,9 @@ In this project, I visualize the Spotify features of Taylor Swift's albums.
 ---
 ## Comparing Spotify Features of Taylor Swift's Re-recordings
 
-[App](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
+[![App](https://img.shields.io/badge/App-Open%20App-blue)]([/project1_swift](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/))
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
+[![Script](https://img.shields.io/badge/Python-Open%20Script-3776AB?logo=Python)](https://github.com/johncarlomaula/taylorswift-spotify-features-project/blob/main/swift_app.py)
 
 In this project, I built an app using Streamlit to compare the Spotify features of Taylor Swift's re-recordings with the original. Features of the app include the ability to select an album or individual song, and the ability to filter which features to display. 
 
