@@ -8,7 +8,7 @@
 
 In this project, I visualize the Spotify features of Taylor Swift's albums. I also built an app using streamlit to compare the features of her re-recordings with the original.
 
-<img src="images/project1_images/danceability_plot.png?raw=true"/>
+<img src="images/project1_images/project1_swift.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
