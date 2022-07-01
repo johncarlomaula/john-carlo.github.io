@@ -8,7 +8,7 @@ Taylor Swift is known for her songwriting among her fans and the music industry.
 
 I only included the lyrics of her 9 studio albums. I also excluded alternative versions (e.g. acoustic or piano versions) and remixes to avoid double counting lyrics.
 
-In this blog, I only show the analysis of Taylor Swift's overall lyrics. To see these results broken down by album, as well as the code used to produce these plots, check out the *Word Count Analysis* and *Sentiment Analysis* sections of the project in Github [here](https://github.com/johncarlomaula/taylorswift-lyrics-project)
+In this blog, I only show the analysis of Taylor Swift's overall lyrics. To see these results broken down by album, as well as the code used to produce these plots, check out the *Word Count Analysis* and *Sentiment Analysis* sections of the project in Github [here](https://github.com/johncarlomaula/taylorswift-lyrics-project).
 
 ### Word Frequency
 
@@ -55,6 +55,6 @@ The **NRC lexicon** categorizes words into different categories of emotion: posi
 
 According to the NRC lexicon, the most common emotions conveyed by Taylor's lyrics are positive, negative, joy, and anticipation while the least common emotion is disgust. This result generally stays consistent throughout her albums with some minor differences in the order.
 
- ## Conclusion
+## Conclusion
 
 Although these results were expected as Taylor Swift primarily writes about love and relationships, it was still interesting to look at it from a quantitative perspective. It also showed that she writes about these topics from a more positive viewpoint as shown by the large number of positive-associated words used in her lyrics, despite the misconception that she only writes songs about getting back at her exes. I look forward to seeing how her lyrics evolve with her future albums.
