@@ -1,6 +1,17 @@
 # Portfolio
 
 ---
+## Spotify Features Visualizer Web App
+
+[![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-project)
+
+Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
+
+<img src="images/app_visualizer.png?raw=true"/>
+
+---
+
 ## Analyzing Spotify Features of Taylor Swift's Albums
 
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project1_swift)
