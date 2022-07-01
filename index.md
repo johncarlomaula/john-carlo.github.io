@@ -16,10 +16,9 @@ In this project, I visualized the Spotify features of Taylor Swift's and compare
 ## Analyzing Taylor Swift's Lyrics
 
 [![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
 
-
-In this project, I analyze Taylor Swift's lyrics in R. I examined the number of unique words she used throughout her music as well as the sentiments conveyed by the lyrics of her music.
+In this project, I analyze Tayor Swift's lyrics in R. I visualized the word frequency and lexical diversity of her music and analyzed the sentiments conveyed by her lyrics using 3 different lexicons: Bing, AFINN, and NRC.
 
 <img src="images/project2_images/lyrics_thumbnail.png?raw=true"/>
 
