@@ -1,6 +1,6 @@
 # Analyzing The Spotify Features of Taylor Swift's Music
 
-**Project Description:** In this project, I retrieve Spotify features of Taylor Swift's music using the Spotipy library and visualized them for analysis. I also developed a web app that compare thee features of her re-recorded music with the original.
+**Project Description:** In this project, I retrieve Spotify features of Taylor Swift's music using the Spotipy library and visualized them for analysis. I also developed a web app that compares the features of her re-recorded music with the original.
 
 <img src="images/project1_images/swift.png?raw=true"/>
 
