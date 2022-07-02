@@ -3,8 +3,8 @@
 ---
 ## Spotify Features Visualizer Web App
 
-[![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-project)
+[![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-spotify-features-visualizer-app-app-0l4de8.streamlitapp.com/)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-app)
 
 Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
 
