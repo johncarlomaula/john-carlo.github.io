@@ -8,7 +8,7 @@
 
 Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
 
-<img src="images/app_visualizer.png?raw=true"/>
+<img src="images/app_thumbnail.png?raw=true"/>
 
 ---
 
