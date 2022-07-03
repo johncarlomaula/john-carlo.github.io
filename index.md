@@ -1,6 +1,17 @@
 # Portfolio
 
 ---
+## Visualizing My Apple Music Consumption
+
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project1_swift)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-app)
+
+I visualized my Apple Music listening history during the time period of August 2020 - April 2022. After retrieving my personal, raw Apple data, I used SQL to organize and clean the data before importing the resulting dataset into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. This project is WIP.
+
+<img src="images/project4_thumbnail.png?raw=true"/>
+
+---
+
 ## Spotify Features Visualizer Web App
 
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-spotify-features-visualizer-app-app-0l4de8.streamlitapp.com/)
