@@ -39,7 +39,7 @@ On average, I listen to 109 hours of music per month, or about 3.5 - 3.6 hrs per
 
 The next chart is my daily listening habits. This chart plots the percentage of time I spent listening to music during each hour of the day. I tend to listen to music the most during the hours of 5PM - 7AM, peaking at 7PM and the least during 8AM - 4PM, with the lowest during 12PM - 2PM.
 
-<img src="images/project4_images/daily_listening.png?_raw=true"/>
+<img src="images/project4_images/hourly_listening.png?_raw=true"/>
 
 This is unorthodox, but since I am currently in a gap year, and with the environment I live in, I  am free to have developed a night shift schedule!
 
