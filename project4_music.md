@@ -39,7 +39,7 @@ On average, I listen to 109 hours of music per month, or about 3.5 - 3.6 hrs per
 
 The next chart is my daily listening habits. This chart plots the percentage of time I spent listening to music during each hour of the day. I tend to listen to music the most during the hours of 5PM - 7AM, peaking at 7PM and the least during 8AM - 4PM, with the lowest during 12PM - 2PM.
 
-<img src="images/project4_images/hourly_listening.png?_raw=true"/>
+<img src="images/project4_images/daily_listening.png?_raw=true"/>
 
 This is unorthodox, but since I am currently in a gap year, and with the environment I live in, I  am free to have developed a night shift schedule!
 
@@ -53,13 +53,13 @@ In other words, for every 1 hour time spent listening to music:
 3. 3.5 minutes spent listening to Carly Rae Jepsen
 4. 3 minutes spent listening to Lady Gaga
 
-<img src="images/project4_images/artist_listening_v2.png?_raw=true"/>
+<img src="images/project4_images/artist_listening.png?_raw=true"/>
 
 ### Top Most Listened to Songs
 
 My top listened to songs are happiness, Daylight, and Hold On. These are relatively long songs (5:15, 4:53, and 6:06), so it's no surprise that these songs occupy the most. Short songs that made it to the list include easier said (3:07), Fun Tonight (2:53)
 
-<img src="images/project4_images/song_listening.png?_raw=true"/>
+<img src="images/project4_images/songs_listening.png?_raw=true"/>
 
 ### Taylor Swift Example
 
