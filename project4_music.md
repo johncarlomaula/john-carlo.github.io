@@ -5,7 +5,9 @@
 
 <img src="images/project4_images/apple_music.jpg?_raw=true"/>
 
-I have enjoyed listening to music for as long as I can remember. When I got an iPod Nano for my 12th birthday, I became obsessed with tracking my music listening habits. Every week I would sync my iPod on iTunes, record my top played songs on a piece of paper, and hang it on my fridge like a personal Billboard Chart. Since then, my music data has been lost from losing hard drives or getting new devices. When I found out you can request music data from Apple, I decided to analyze my own data and visualize my music listening habits. I officially began my Apple Music subscription on my current Apple ID on August 2020, so I have about a year and a half of data to work with. 
+I have enjoyed listening to music for as long as I can remember. When I got an iPod Nano for my 12th birthday, I became obsessed with tracking my music listening habits. Every week I would sync my iPod on iTunes, record my top played songs on a piece of paper, and hang it on my fridge like a personal Billboard Chart. Since then, my music data has been lost from losing hard drives or getting new devices. 
+
+When I found out you can request music data from Apple, I decided to analyze my own data and visualize my music listening habits. I officially began my Apple Music subscription on my current Apple ID on August 2020, so I have about a year and a half of data to work with.
 
 I created two Tableau dashboards:
 1. Listening Activity - focuses on my music listening habits over time
@@ -69,29 +71,55 @@ The daily listening activity doesn't seem affected much.
 
 <img src="images/project4_images/swift_listening.png?_raw=true"/>
 
+### Limitations
+
+Excludes songs that are not available in Apple Music. For example, the song *Love Me Right* by Lady Gaga is one of my most played songs, but it is a song I downloaded to my library from a CD. Thus, it was excluded from the dataset. Fortunately, the majority of the songs I listen to are available on Apple Music.
 
 
 ## Music Breakdown
 
 ### Getting the Data
 
-### Top Songs & Albums
+Getting the data for should technically be easy, but I since I reset the play counts at the beginning of 2021, the current play counts do not include data from 2020. Fortunately, I can estimate the play counts by counting the instances by song title and artist. 
 
-### Top Artists, Genre, & Decade
+In order to get information about the album, genre, and track year, I need to join the two tables. Since the first dataset does not have song ID, I joined them by song title and artist.
+
+For more details on this process, you can check out the SQL code on my Github.
+
+### Basic Stats
+
+I listened to a total of 36,375 plays. I listened to 2,619 songs from 650 albums and 353 artists and 8 different decades. I also listened to 26 different genres and songs.
+
+For every 100 songs played:
+- 22 songs are by Taylor Swift
+- 6 songs are by Carly Rae Jepsen
+- 6 songs are by Lady Gaga
+
+I also listen primarily to pop music, consisting 60% of my total play counts, followed by alternative at 20%, and Country at 8%
 
 
-Listening Activity
-- SQL/Methodology
-- Monthly hours spent listening to music (bar graph)
-- Hours in the day I spent listening to music the most (line graph)
-- Top Artists (pie chart)
-- Specific example of an artist (area graph, filtered to one artist)
-
-Music Breakdown
-- SQL/Methodology
-- Most played artist, genre, and decade  (pie chart)
-- Top songs (bar graph) + metrics
-- Top albums (bar graph) + metrics
+When it comes to decades, most of the songs I listened to came out in the current decade (2020 - present), followed closely by songs from the previous decade at 38.4%
 
 
-Conclusion
+### Top Songs
+
+My top most played songs are *happiness*, *Felt This Way*, and *Daylight*. 9 of my top 20 most played songs are by Taylor Swift. 
+
+### Top Albums
+
+My top 4 albums are by Taylor Swift: *Lover*, *evermore*, *Red (Taylor's Version)*, and *folklore*. 
+
+### Alternative Genre Example
+
+When filtering by the alternative genre, I listened to 450 songs from 61 artists and 96 albums.
+
+About 21% of the alternative songs I listened to are by Taylor Swift, followed by Alanis Morissette at 16.1% and Rina Sawayama at 12.6% These are two artists I discovered during this time period.
+
+4 of the top 20 songs are alternative *happiness*, *Missing The Miracle*, *Tokyo Love Hotel*, and *Bad Friend* while 6 albums are included: *evermore*, *Sawayama*, *Such Pretty Forks in the Road*, *if i could make it go quiet*, *Havoc and Bright Lights*, and *folklore*. 
+
+### Limitations
+
+Since a join between two tables were made, songs that were not available in Apple Music also did not end up in this resulting dataset, despite being available in the original play count. Another limitation is the join by artist and song name. If the song name or artist were slightly different between the two tables, the resulting data is excluded. 
+
+
+## Conclusion
