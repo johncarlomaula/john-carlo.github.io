@@ -3,7 +3,7 @@
 ---
 ## Visualizing My Apple Music Consumption
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project1_swift)
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project4_music)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-app)
 
 I visualized my Apple Music listening history during the time period of August 2020 - April 2022. After retrieving my personal, raw Apple data, I used SQL to organize and clean the data before importing the resulting dataset into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. This project is WIP.
