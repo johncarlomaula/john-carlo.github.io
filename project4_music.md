@@ -9,6 +9,7 @@ I have enjoyed listening to music for as long as I can remember. When I got an i
 When I found out you can request music data from Apple, I decided to analyze my own data and visualize my music listening habits. I officially began my Apple Music subscription on my current Apple ID in August 2020, so I have about a year and a half of data to work with.
 
 For this project, I created two dashboards that can be accessed from my Tableau Public account:
+
 1. **[Listening Activity](https://public.tableau.com/views/AppleMusicListeningActivity/AppleMusicListeningActivity?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my music listening habits over time
 
 <img src="images/project4_images/listening_activity.png?_raw=true"/>
@@ -16,7 +17,6 @@ For this project, I created two dashboards that can be accessed from my Tableau 
 2. **[Music Breakdown](https://public.tableau.com/views/MusicPlayCounts/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my most played artists, albums, songs, and genre
 
 <img src="images/project4_images/count.png?_raw=true"/>
-
 
 ## Methodology
 
@@ -50,13 +50,13 @@ During this time period of August 2020 - April 2022, I listened to **2,162 hours
 
 As shown by the donut chart, I tend to listen to the same artists a lot. About 56% of the music I play are from 10 artists, with Taylor Swift being the number one artist at 22%.
 
-For genre, I primarily listen to pop music at 60%, followed by alternative at 20%. In other words, for every 5 songs I play, about 3 are pop songs and 1 is alternative. 
+As for genre, I primarily listen to pop music at 60%, followed by alternative at 20%. In other words, for every 5 songs I play, about 3 are pop songs and 1 is alternative. 
 
 Finally, the majority of the songs I play have been released fairly recently with 45% being released within the last 2 years and 38% being released during the 2010s.
 
 ### Top Most Played Songs
 
-The top 20 most played song are displayed the in graph below ranging from 143 - 275 play counts. My top most played song is *happiness* by Taylor Swift, followed by *Felt This Way* by Carly Rae Jepsen at 269. Nine of the my top 20 most played songs are by Taylor Swift. 
+The top 20 most played songs are displayed in the graph below ranging from 143 - 275 play counts. My top most played song is *happiness* by Taylor Swift, followed by *Felt This Way* by Carly Rae Jepsen at 269. Nine of my top 20 most played songs are by Taylor Swift. 
 
 <img src="images/project4_images/top_songs.png?_raw=true"/>
 
@@ -70,10 +70,9 @@ My top 20 most played albums, calculated by summing the play counts of each indi
 
 The most recent albums in this list are ***Red (Taylor's Version)*** by Taylor Swift and ***30*** by Adele, accumulating 1,116 and 846 plays, respectively, within 5 months of release. The oldest album in this list is ***Havoc and Bright Lights*** by Alanis Morissette at 354 plays and was released in 2012. I discovered this album fairly recently, which explains its appearance in my top 20.
 
-
 ### Monthly Listening Activity
 
-The graph below shows the total hours of music I listened to each month. The months I listened to music the least are August 2020 and April 2022 as they do not contain data for the full month. The month I listened to music the most was on November 2020 at 172 hours, which averages to about 5.7 hours per day. The full month I listened to music the least was on March 2022 at 55 hours or about 1.8 hour per day.
+The graph below shows the total hours of music I listened to each month. The months I listened to music the least are August 2020 and April 2022 as they do not contain data for the full month. The month I listened to music the most was in November 2020 at 172 hours, which averages to about 5.7 hours per day. The full month I listened to music the least was in March 2022 at 55 hours or about 1.8 hour per day.
 
 <img src="images/project4_images/monthly_listening.png?_raw=true"/>
 
@@ -84,42 +83,46 @@ On average, I listen to about 109 hours of music per month, or about 3.5 - 3.6 h
 - Lack of new music that I enjoy, whether it's from a new artist or one I already know
 - Any new hobbies/activities I engage in
 
-### Daily Listening Habits
+### Daily & Hourly Listening Habits
 
-The next chart is my daily listening habits. This chart plots the percentage of time I spent listening to music during each hour of the day. I tend to listen to music the most during the hours of 5PM - 7AM, peaking at 7PM and the least during 8AM - 4PM, with the lowest during 12PM - 2PM.
+The next graphs show my daily and hourly listening activities. Both graphs plot the percentage of time I spent listening to music during a specific day or hour. I tend to listen to music the most on Friday, Saturday, and Sunday and the least during the weekday. I also tend to listen to music the most at night from 5PM - 7AM peaking at 7PM and the least during the day from 8AM - 4PM, with the lowest during 12PM - 2PM
 
-<img src="images/project4_images/hourly_listening.png?_raw=true"/>
-
-This is unorthodox, but since I am currently in a gap year, and with the environment I live in, I  am free to have developed a night shift schedule!
+<img src="images/project4_images/daily_hourly_listening.png?_raw=true"/>
 
 ### Top Most Listened To Artists
 
-The next chart is a pie chart of my top artists. It is similarly distributed to play counts, but is measured by the time spent listening to artists. My 10 most-listened to artists is about 56.2% of the music I listen to, with 23% being Taylor Swift. 
+The next chart is a donut chart of my top most listened to artist. It is almost distributed the same as my top most played artists, but this focuses on the time spent listening to the artist. My top 10 artists are the same and accounts for about 56.2% of the music I listen to, with 23% being Taylor Swift.
 
 <img src="images/project4_images/artist_listening.png?_raw=true"/>
 
-In other words, for every 1 hour time spent listening to music:
-1. 33.7 minutes spent listening to 10 artists
-2. 13.9 minutes spent listening to Taylor Swift
-3. 3.5 minutes spent listening to Carly Rae Jepsen
-4. 3 minutes spent listening to Lady Gaga
+For every hour I spend listening to music:
+- 33.7 minutes are spent listening to 10 artists
+- 13.9 minutes are spent listening to Taylor Swift
+- 3.5 minutes are spent listening to Carly Rae Jepsen
+- 3 minutes are spent listening to Lady Gaga
+
+### Top Most Listened To Songs
+
+My most listened to songs are similar to my top played songs with longer songs having more weight. Lengthy songs like *Hold On* and *I Drink Wine* by Adele are higher up in this list due to both songs being over 6 minutes. However, *happiness* is still my most listened to song as it is my most played song and has a length of 5:15. 
 
 
-### Taylor Swift Example
+<img src="images/project4_images/songs_listening.png?_raw=true"/>
 
-Finally, filtering by Taylor Swift affects the other charts in the dashboard. 10 of the 20 most played songs are by Taylor Swift. And based on the listening acitivty charts, I listened to Taylor Swift the most on November 2021 (when ***Red (Taylor's Version)*** came out), and the least during Jun. 2021 - Oct. 2021, Jan. 2022, and Mar. 2022. 
 
-The daily listening activity doesn't seem affected much. 
+### Listening Activity Dashboard Example: Taylor Swift
+
+The listening activity dashboard can be filtered by artists by clicking on the donut chart. As an example, clicking on Taylor Swift results in the image below.
 
 <img src="images/project4_images/swift_listening.png?_raw=true"/>
 
-### Alternative Music
+As you can see, 10 of the 20 most listened to songs are by Taylor Swift. Based on the monthly listening activity charts, I listened to Taylor Swift the most on November 2021 at 51 hours. There was fairly long period where I didn't listen much to Taylor Swift from June 2021 - October 2021, ranging to 6 - 13 hours per month. The hourly listening graph did not change much.
 
-When looking at the dashboard, I can filter by genre by clicking on the donut chart. When I click on the alternative genre, I can see that I listened to 450 alternative songs from 61 artists and 96 albums for a total of 7,417 play counts. About 21% of the alternative songs I played are by Taylor Swift, followed by Alanis Morissette at 16% and Rina Sawayama at 13%.
+### Music Breakdown Dashboard Example: Alternative Genre
+
+The music breakdown dashboard can be filtered by genre and decade. As an example, filtering genre by Alternative results in the image below. I listened to 450 alternative songs from 61 artists and 96 albums for a total of 7,417 play counts. About 21% of the alternative songs I played are by Taylor Swift, followed by Alanis Morissette at 16% and Rina Sawayama at 13%.
 
 <img src="images/project4_images/alternative.png?_raw=true"/>
 
-My most played alternative songs are *happiness*, *Missing the Miracle*, and *Tokyo Love Hotel* at 275, 186, and 177 play counts, respectively. My top most played albums are ***evermore*** by Taylor Swift at 1,409, ***Sawayama*** by Rina Sawayama at 934, and ***Such Pretty Forks in the Road*** by Alanis Morisette at 832, which were all released in 2020.
-
+My most played alternative songs are *happiness* at 275, *Missing the Miracle* at 186, *Tokyo Love Hotel* at 177, and *Bad Friend* at 159 plays. My top most played albums are ***evermore*** by Taylor Swift at 1,409, ***Sawayama*** by Rina Sawayama at 934, and ***Such Pretty Forks in the Road*** by Alanis Morissette at 832. All these albums were released in 2020.
 
 ## Conclusion
