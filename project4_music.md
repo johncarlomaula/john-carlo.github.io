@@ -38,7 +38,7 @@ There are some limitations to this method:
 - Songs in my library but not on Apple Music are not recorded
 - Differences in song titles and artists can lose some data or create duplicates when joining the two tables
 
-For more details on how I cleaned and organized the data, you can check out my SQL scripts on [Github]().
+For more details on how I cleaned and organized the data, you can check out my SQL scripts on [Github](https://github.com/johncarlomaula/apple-music-activity-project).
 
 ## Listening Activity
 
