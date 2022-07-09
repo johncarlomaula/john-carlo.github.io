@@ -6,7 +6,7 @@
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project4_music)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
 
-I visualized my Apple Music listening history during the time period of August 2020 - April 2022. After retrieving my personal, raw Apple data, I used SQL to organize and clean the data before importing the resulting dataset into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music.
+I visualized my Apple Music listening history during the time period of Aug. 2020 - Apr. 2021. After retrieving my personal Apple data, I used SQL to organize and clean the data before importing the resulting datasets into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. 
 
 <img src="images/activity.png?raw=true"/>
 
