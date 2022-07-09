@@ -10,25 +10,33 @@ When I found out you can request music data from Apple, I decided to analyze my 
 
 For this project, I created two dashboards that can be accessed from my Tableau Public account:
 
-1. **[Listening Activity](https://public.tableau.com/views/AppleMusicListeningActivity/AppleMusicListeningActivity?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my music listening habits over time
+**1. [Listening Activity Dashboard](https://public.tableau.com/views/AppleMusicListeningActivity/AppleMusicListeningActivity?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my music listening habits over time
 
 <img src="images/project4_images/listening_activity.png?_raw=true"/>
 
-2. **[Music Breakdown](https://public.tableau.com/views/MusicPlayCounts/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my most played artists, albums, songs, and genre
+**2. [Music Breakdown Dashboard](https://public.tableau.com/views/MusicPlayCounts/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** - focuses on my most played artists, albums, songs, and genre
 
 <img src="images/project4_images/count.png?_raw=true"/>
 
 ## Methodology
 
 After retrieving my Apple data, the two files of interest are:
-1. `Apple Music Play Activity.csv` - data of each instance I played music; contains x columns and n rows. I will refer to this as the *activity* dataset.
-2. `Apple Music Library Tracks.json` - metadata of songs in my music library; contains x columns and n rows. I will refer to this as the *metadata* dataset.
+1. `Apple Music Play Activity.csv` - data of each instance I played music; contains 38 columns and 118,251 rows. I will refer to this as the *activity* dataset.
+2. `Apple Music Library Tracks.json` - metadata of songs in my music library; contains 52 columns and 6,264 rows. I will refer to this as the *metadata* dataset.
 
 To build my listening activity dashboard, I focused on the activity dataset since it includes timestamps of each instance and set the following conditions:
 - Instances must have taken place during 2020 or after
 - The listening duration must be at least 20% of the song's length
 - The song must have ended naturally
-- The variables of interest are:
+
+The variables of interest include:
+1. **Song_Name** - title of the song
+2. **Artist_Name** - artist of the song
+3. **Media_Duration** - length of the song
+4. **Play_Duration** - listening duration of the song
+5. **Album** - album containing the song
+6. **Genre** - genre of the song
+7. **Track_Year** - year the song was released
 
 To build my music breakdown dashboard, I only need the metadata dataset since it contains play count as metadata. Unfortunately, I reset my play counts in the beginning of 2021, so these numbers do not include data from 2020. 
 
@@ -44,7 +52,7 @@ For more details on how I cleaned and organized the data, you can check out my S
 
 ### Overall Music Breakdown
 
-During this time period of August 2020 - April 2022, I listened to **2,162 hours** of music. I played a total of **2,619 songs** from **650 albums**, **353 artists**, **26 genres**, and **8 decades** for a **total play count of 36,375**. 
+During the time period of August 2020 - April 2022, I listened to 2,162 hours of music. I played a total of 2,619 songs from 650 albums, 353 artists, 26 genres, and 8 decades for a total play count of 36,375. 
 
 <img src="images/project4_images/breakdown.png?_raw=true"/>
 
@@ -77,17 +85,17 @@ The graph below shows the total hours of music I listened to each month. The mon
 <img src="images/project4_images/monthly_listening.png?_raw=true"/>
 
 On average, I listen to about 109 hours of music per month, or about 3.5 - 3.6 hours per day. So far, there isn't a specific trend in my monthly listening habits. The amount of time I spend listening to music usually depends on several factors:
-- New music from my favorite artists
-- Discovering a new artist
-- Discovering old music from an artist I already know
-- Lack of new music that I enjoy, whether it's from a new artist or one I already know
-- Any new hobbies/activities I engage in
+- Lack of or abundance of new music from my favorite artists
+- Discovering new songs, albums, or artists that I enjoy
+- Any new hobbies/activities I can play music to while participating
 
 ### Daily & Hourly Listening Habits
 
-The next graphs show my daily and hourly listening activities. Both graphs plot the percentage of time I spent listening to music during a specific day or hour. I tend to listen to music the most on Friday, Saturday, and Sunday and the least during the weekday. I also tend to listen to music the most at night from 5PM - 7AM peaking at 7PM and the least during the day from 8AM - 4PM, with the lowest during 12PM - 2PM
+The next graphs show my daily and hourly listening activities. Both graphs plot the percentage of time I spent listening to music during a specific day or hour. I slightly listen to more music during the weekend and less during the weekdays. New music usually comes out on Friday, so that's probably why it's the day I listen to music the most.
 
 <img src="images/project4_images/daily_hourly_listening.png?_raw=true"/>
+
+I also tend to listen to music the most at night from 5 PM - 7 AM peaking at 7 PM. I listen to music the least during the day from 8 AM - 4 PM, with the lowest during 12 PM - 2 PM. During this time, I have adopted a night shift schedule and will probably not remain this way in the future.
 
 ### Top Most Listened To Artists
 
@@ -103,8 +111,7 @@ For every hour I spend listening to music:
 
 ### Top Most Listened To Songs
 
-My most listened to songs are similar to my top played songs with longer songs having more weight. Lengthy songs like *Hold On* and *I Drink Wine* by Adele are higher up in this list due to both songs being over 6 minutes. However, *happiness* is still my most listened to song as it is my most played song and has a length of 5:15. 
-
+My most listened to songs are similar to my top played songs with longer songs having more weight. Lengthy songs like *Hold On* and *I Drink Wine* by Adele are higher up in this list due to both songs being over 6 minutes. However, *happiness* is still my most listened to song as it is my most played song and with a length of 5:15. 
 
 <img src="images/project4_images/songs_listening.png?_raw=true"/>
 
@@ -119,10 +126,15 @@ As you can see, 10 of the 20 most listened to songs are by Taylor Swift. Based o
 
 ### Music Breakdown Dashboard Example: Alternative Genre
 
-The music breakdown dashboard can be filtered by genre and decade. As an example, filtering genre by Alternative results in the image below. I listened to 450 alternative songs from 61 artists and 96 albums for a total of 7,417 play counts. About 21% of the alternative songs I played are by Taylor Swift, followed by Alanis Morissette at 16% and Rina Sawayama at 13%.
+The music breakdown dashboard can be filtered by genre and decade. As an example, filtering genre by lternative results in the image below. I listened to 450 alternative songs from 61 artists and 96 albums for a total of 7,417 play counts. About 21% of the alternative songs I played are by Taylor Swift, followed by Alanis Morissette at 16% and Rina Sawayama at 13%.
 
 <img src="images/project4_images/alternative.png?_raw=true"/>
 
 My most played alternative songs are *happiness* at 275, *Missing the Miracle* at 186, *Tokyo Love Hotel* at 177, and *Bad Friend* at 159 plays. My top most played albums are ***evermore*** by Taylor Swift at 1,409, ***Sawayama*** by Rina Sawayama at 934, and ***Such Pretty Forks in the Road*** by Alanis Morissette at 832. All these albums were released in 2020.
 
+
 ## Conclusion
+
+Visualizing my music listening history was a fun experience. While I am very aware and familiar with my own taste in music, this experience allowed me to reflect on some of my listening habits. For example, I could put more effort into discovering new music and new artists instead of playing the same songs/artists repeatedly. However, even though Taylor Swift is my most listened to artist by a wide margin, she did release 5 albums in a span of 2 years, so I think she ended up being overrepresented a bit.
+
+Regardless, this was a fun experience that allowed me to practice some SQL and Tableau. I look forward to doing this analysis in the future and see how my music habits change!
