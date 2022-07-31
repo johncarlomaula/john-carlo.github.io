@@ -3,12 +3,12 @@
 ---
 ## Predicting Customer Churning using Logistic Regression
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project4_music)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
 
 In this project, I explored and analyzed a dataset containing information about customers of a subscription service. I built a logistic regression model to predict whether or not a customer will "churn" or unsubscribe based on their features. My initial model had an accuracy of 80.6% but a sensitivity of 48.2%. I was able to improve sensitivity to 71.2% (+23.0%) at the cost of a 9.4% decrease in accuracy.
 
-<img src="images/telco_thumbnail.png?raw=true"/>
+<img src="images/project5_images/telco_thumbnail.png?raw=true"/>
 
 ---
 
