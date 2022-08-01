@@ -58,7 +58,52 @@ Then, I will use the validation set to measure its final performance. The method
 
 ### Model Results
 
-The results of the model performance are summarized in the graph below.
+The results of the model performance are summarized in the table below.
+
+| Metric | Optimal Cutoff | Bootstrapped Model |
+| --- |  :---------: | :---------: |
+| Accuracy| 65.9% | 69.6% |
+| Sensitivity | 80.7% | 72.3% |
+| Specificity | 60.0% | 68.6% |
+
+Both models have a lower accuracy than the initial model, but they have a higher sensitivity. Since the bootstrapped model has a higher overall accuracy and specificity, I decided to choose that model has a the final model. However, depending on the costs of customer retention vs the cost of losing a customer, the other model might be better due to its higher sensitivity. 
+
+For example, if the loss of a customer is more costly than the cost of any implemented customer retention strategies, then this model will be a better option since it ensures that customers who are more likely to churn are identified.
+
+On the other hand, if the cost is about the same, then the bootstrapped model will be a better option since it ensures that as many customers are correctly classified regardless of whether or not they are more likely to churn.
+
+### Feature Importance
+
+Feature importance is a measurement of how important or influential a variable is in predicting churning. One way of measuring influence is by examining the coefficients of the logistic regression model.
+
+For example, **monthly contract** has a coefficient of 1.977 in the model. This means that customers with a monthly contract have a **622% increase** in the odds of churning compared to those who have a 1-year or 2-year contract when all other variables are kept constant. 
+
+All predictors included in the model were determined to be important in predicting churning. 
+
+### Actionable Insights
+
+- Focus on customers who have a monthly contract. Offer incentives when signing up for a 1-year or 2-year contract.
+- Overhaul the *Fiber Optic* internet service. It has a higher overall monthly cost, but there does not appear to be a difference in the quality of the services provided when compared to *DSL*. 
+- Examine the electronic check payment channel. If extra costs are are associated with this kind of payment, find a way to decrease it. Another option is to make other methods more convenient.
+- Properly inform customers about the offered services such as online protection, online backup, etc. and their benefits.
+
+### Appendix
+
+Figure 1 - Scatterplot matrix of tenure, monthly charges, and total charges.
+
+Figure 3
+
+Figure 4
+
+Figure 5
+
+Figure 6
+
+Figure 7
+
+Figure 8
+
+
 
 <img src="images/project5_images/performance.png?_raw=true"/>
 
