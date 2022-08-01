@@ -13,10 +13,10 @@ The goal of this project is to build a logistic regression model that will predi
 
 The data has been split into two sets: training set and testing set. Each set has 2000 rows and 21 variables. After data cleaning, the finalized training set contained 1995 rows and 20 variables with a churning prevalence of 27.3%. My key findings are summarized below: 
 
-- Customers who have a higher monthly charge and lower tenure tend to churn more.
-- Customers who are not senior citizens, have partners, have dependents, or don't use electronic checks are less likely to churn.
+- Customers who have a higher monthly charge and lower tenure tend to churn more (fig 1).
+- Customers who are not senior citizens, have partners, have dependents, or don't use electronic checks are less likely to churn (fig 2).
+- Customers with online security, online backup, device protection, and tech support are less likely to churn regardless of the cost and type of internet service (fig 3 and fig 4). 
 - Although customers with the *Fiber Optic* internet service are more likely to churn, it's due to the higher cost of that specific service rather than the quality of its services.
-- Customers with online security, online backup, device protection, and tech supportare less likely to churn regardless of the cost and type of internet service. 
 
 For more details on EDA, check out the R Markdown notebook [here](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_eda.md).
 
@@ -48,7 +48,7 @@ While the accuracy is decent, the model has poor sensitivity. More than half of 
 
 Once I fit the initial model and measured its performance, I decided to improve its performance in two different ways:
 
-1. Changing the probability threshold to the optimal cutoff
+1. Changing the probability threshold to the optimal cutoff (fig 5).
 2. Bootstrapping to achieve a 50% churning prevalence in the dataset. 
 
 Then, I will use the validation set to measure its final performance. The methodology can be summarized in the image below.
@@ -58,7 +58,7 @@ Then, I will use the validation set to measure its final performance. The method
 
 ### Model Results
 
-The results of the model performance are summarized in the table below.
+The results of the model performance are summarized in the table below. It's also visualized in Figure 6 in the appendix. 
 
 | Metric | Optimal Cutoff | Bootstrapped Model |
 | --- |  :---------: | :---------: |
@@ -87,26 +87,32 @@ All predictors included in the model were determined to be important in predicti
 - Examine the electronic check payment channel. If extra costs are are associated with this kind of payment, find a way to decrease it. Another option is to make other methods more convenient.
 - Properly inform customers about the offered services such as online protection, online backup, etc. and their benefits.
 
-### Appendix
-
-Figure 1 - Scatterplot matrix of tenure, monthly charges, and total charges.
-
-Figure 3
-
-Figure 4
-
-Figure 5
-
-Figure 6
-
-Figure 7
-
-Figure 8
+## Appendix - Images
 
 
+
+<img src="images/project5_images/boxplots.png?_raw=true"/>
+
+**Figure 1** - Boxplots of tenure, monthly charges, and total charges against churning.
+
+<img src="images/project5_images/binary.png?_raw=true"/>
+
+**Figure 2** - Barplots of binary variables such as dependents, senior citizenship, etc. against churning.
+
+<img src="images/project5_images/dsl_optic_churn.png?_raw=true"/>
+
+**Figure 3** - Barplots of the provided services against churning of the two types of internet services, *DSL* and *Fiber Optic*.
+
+<img src="images/project5_images/dsl_fiber_mc.png?_raw=true"/>
+
+**Figure 4** - Barplots of the provided services against monthly charges of the two types of internet services, *DSL* and *Fiber Optic*. 
+
+<img src="images/project5_images/roc.png?_raw=true"/>
+
+**Figure 5** - Left: distribution of predicted probabilities under each class. Right: ROC curve with the location of the optimal cutoff point. 
 
 <img src="images/project5_images/performance.png?_raw=true"/>
 
-
+**Figure 6** - Plot of the model performance of all the models from the testing and validation sets.
 
 
