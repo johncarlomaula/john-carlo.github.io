@@ -32,29 +32,18 @@ Thus, a total of 5 predictors will be used to build the model.
 
 ### Data Modeling
 
-I decided to build a logistic regression model due to the binary nature of the response variables, churning. This method involves modeling the log-odds of churning, from which I can derive the probability that a customer will churn. With the predicted probability values, I can classify customers as churning or not churning. 
+Due to the binary nature of the response variable, I decided to fit a logistic regression model with the 5 predictors on the training data. Then, I used the testing set to measure its performance. While the accuracy of 79.0% is pretty good, the model has a sensitivity of 46.9%. This means more than half of the churning customers were incorrectly classified.
 
-Thus, I fit a logistic regression model with the 5 predictors on the training data. Then, I used the testing set to measure its performance:
+Thus, I decided to improve the model in two different ways:
 
-| Metric | Value |
-| --- | ----------- |
-| Accuracy| 79.0% |
-| Sensitivity | 46.9% |
-| Specificity | 88.3% |
+**Method 1:** Changing the probability threshold to the optimal cutoff.
+**Method 2:** Bootstrapping to achieve a 50% churning prevalence in the dataset. 
 
-While the accuracy is decent, the model has poor sensitivity. More than half of the churning customers were incorrectly classified as not churning. 
-
-### Improving the Model
-
-Once I fit the initial model and measured its performance, I decided to improve its performance in two different ways:
-
-1. Changing the probability threshold to the optimal cutoff (fig 5).
-2. Bootstrapping to achieve a 50% churning prevalence in the dataset. 
-
-Then, I will use the validation set to measure its final performance. The methodology can be summarized in the image below.
+The methodology can be summarized in the image below. 
 
 <img src="images/project5_images/methodology.png?_raw=true"/>
 
+Then, I will use the validation set to measure its final performance.
 
 ### Model Results
 
@@ -80,7 +69,7 @@ For example, **monthly contract** has a coefficient of 1.977 in the model. This 
 
 All predictors included in the model were determined to be important in predicting churning. 
 
-### Actionable Insights
+### Recommendations
 
 - Focus on customers who have a monthly contract. Offer incentives when signing up for a 1-year or 2-year contract.
 - Overhaul the *Fiber Optic* internet service. It has a higher overall monthly cost, but there does not appear to be a difference in the quality of the services provided when compared to *DSL*. 
@@ -88,8 +77,6 @@ All predictors included in the model were determined to be important in predicti
 - Properly inform customers about the offered services such as online protection, online backup, etc. and their benefits.
 
 ## Appendix - Images
-
-
 
 <img src="images/project5_images/boxplots.png?_raw=true"/>
 
