@@ -36,10 +36,8 @@ Due to the binary nature of the response variable, I decided to fit a logistic r
 
 Thus, I decided to improve the model in two different ways:
 
-**Method 1:** Changing the probability threshold to the optimal cutoff.
-**Method 2:** Bootstrapping to achieve a 50% churning prevalence in the dataset. 
-
-The methodology can be summarized in the image below. 
+1. Changing the probability threshold of classification to maximize sensitivity and specificity.
+2. Bootstrapping samples to achieve a balanced dataset (i.e. 50% prevalence in churning). 
 
 <img src="images/project5_images/methodology.png?_raw=true"/>
 
