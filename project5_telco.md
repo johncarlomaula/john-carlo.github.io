@@ -41,15 +41,15 @@ Then, I will use the validation set to measure its final performance. The method
 
 The results of the model performance are summarized in the table below. It's also visualized in Figure 6 in the appendix. 
 
-| Metric | Optimal Cutoff | Bootstrapped Model |
-| --- |  :---------: | :---------: |
-| Accuracy| 65.9% | 69.6% |
-| Sensitivity | 80.7% | 72.3% |
-| Specificity | 60.0% | 68.6% |
+| Metric | Optimal Cutoff | Bootstrapped Model | Difference |
+| --- |  :---------: | :---------: | :---------: |
+| Accuracy| 65.9% | 69.6% | +3.7% |
+| Sensitivity | 80.7% | 72.3% | -8.4% |
+| Specificity | 60.0% | 68.6% | +8.6% |
 
-Both models have a lower accuracy than the initial model, but they both have higher sensitivity. Since the bootstrapped model has a higher accuracy and specificity, I decided to select that model as the final model. 
+Both models have a lower accuracy than the initial model, but they both have higher sensitivity. Since the bootstrapped model has a higher accuracy (+3.7%) and specificity (+8.6%), I decided to select that model as the final model. Compared to the original model, the bootstrapped model has a **54.2% greater performance** in correctly identifying customers who will churn. 
 
-All predictors included in the model were determined to be important in predicting churning, with monthly contract being the most influential predictor. Customers who have this type of contract have a **622% greater** odds of churning.
+All predictors included in this model were determined to be important in predicting churning, with monthly contract being the most influential predictor. Customers who have this type of contract have a **622% greater** odds of churning.
 
 ### Recommendations
 
