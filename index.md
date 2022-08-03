@@ -8,7 +8,7 @@
 
 In this project, I explored and analyzed a dataset containing information about customers of a subscription service. I built a logistic regression model to predict whether or not a customer will "churn" or unsubscribe based on their features. My initial model had an accuracy of 80.6% but a sensitivity of 48.2%. I was able to improve sensitivity to 71.2% (+23.0%) at the cost of a 9.4% decrease in accuracy.
 
-<img src="images/project5_images/telco_thumbnail.png?raw=true" height="200"/>
+<img src="images/project5_images/telco_thumbnail.png?raw=true"/>
 
 ---
 
@@ -30,7 +30,7 @@ I visualized my Apple Music listening history during the time period of Aug. 202
 
 Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
 
-<img src="images/app_thumbnail.png?raw=true" height="200"/>
+<img src="images/app_thumbnail.png?raw=true"/>
 
 ---
 
@@ -42,7 +42,7 @@ Using Streamlit, I developed a web app with a user-friendly interface to visuali
 
 In this project, I visualized the Spotify features of Taylor Swift's and compared her albums to each other. I also built a web app with Streamlit to compare the features of her re-recordings with the original. Features of the app include the ability to select an album or individual song, and the ability to filter which features to display.
 
-<img src="images/project1_images/swift_thumbnail.png?raw=true" height="200"/>
+<img src="images/project1_images/swift_thumbnail.png?raw=true"/>
 
 ---
 
