@@ -6,9 +6,6 @@
 
 The Telco Churn dataset contains information about the customers of Telco, a telecommunications company that offers internet and phone service, and whether or not they “churned”. Churning is defined as leaving the company (i.e. unsubscribing from their services) within the last month. The dataset also contains information about a customer’s demographic and account information. 
 
-The goal of this project is to build a logistic regression model that will predict whether or not a customer will cancel their services based on their features.
-
-
 ### [Exploratory Data Analysis](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_eda.md)
 
 The data has been split into two sets: training set and testing set. Each set has 2000 rows and 21 variables. After data cleaning, the finalized training set contained 1995 rows and 20 variables with a churning prevalence of 27.3%. My key findings are summarized below: 
