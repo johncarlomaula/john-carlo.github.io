@@ -84,4 +84,4 @@ Overall, I recommend the following actions to be taken:
 
 **Figure 5** - Plot of the model performance of all the models from the testing and validation sets.
 
-<img src="images/project5_images/roc.png?_raw=true"/>
+<img src="images/project5_images/performance.png?_raw=true"/>
