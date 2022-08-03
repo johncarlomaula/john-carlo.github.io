@@ -13,9 +13,9 @@ The goal of this project is to build a logistic regression model that will predi
 
 The data has been split into two sets: training set and testing set. Each set has 2000 rows and 21 variables. After data cleaning, the finalized training set contained 1995 rows and 20 variables with a churning prevalence of 27.3%. My key findings are summarized below: 
 
-- Customers who have a higher monthly charge and lower tenure tend to churn more (fig 1).
-- Customers who are not senior citizens, have partners, have dependents, or don't use electronic checks are less likely to churn (fig 2).
-- Customers with online security, online backup, device protection, and tech support are less likely to churn regardless of the cost and type of internet service (fig 3 and fig 4). 
+- Customers who have a higher monthly charge and lower tenure tend to churn more (Figure 1).
+- Customers who are not senior citizens, have partners, have dependents, or don't use electronic checks are less likely to churn (Figure 2).
+- Customers with online security, online backup, device protection, and tech support are less likely to churn regardless of the cost and type of internet service (Figures 3 & 4). 
 - Although customers with the *Fiber Optic* internet service are more likely to churn, it's due to the higher cost of that specific service rather than the quality of its services.
 
 Based on my findings from EDA, I determined 2 variables that will be useful in predicting churning: **dependents** and **monthly charges**. In addition, I created 3 new features using variables from the dataset:
@@ -39,7 +39,7 @@ Then, I will use the validation set to measure its final performance. The method
 
 <img src="images/project5_images/methodology.png?_raw=true"/>
 
-The results of the model performance are summarized in the table below. It's also visualized in Figure 6 in the appendix. 
+The results of the model performance are summarized in the table below. It's also visualized in Figure 5 in the appendix. 
 
 | Metric | Optimal Cutoff | Bootstrapped Model | Difference |
 | --- |  :---------: | :---------: | :---------: |
@@ -55,37 +55,33 @@ All predictors included in this model were determined to be important in predict
 
 While the bootstrapped model is my recommended final model, the other model might be better if the cost of losing a customer greater than the cost of implementing customer retention stragies due to its higher sensitivity. 
 
-Overall, I recommend the following actions to be done:
+Overall, I recommend the following actions to be taken:
 
 - Focus on customers who have a monthly contract. Offer incentives when signing up for a 1-year or 2-year contract.
 - Overhaul the *Fiber Optic* internet service. It has a higher overall monthly cost, but there does not appear to be a difference in the quality of the services provided when compared to *DSL*. 
 - Examine the electronic check payment channel. If extra costs are are associated with this kind of payment, find a way to decrease it. Another option is to make other methods more convenient.
 - Properly inform customers about the offered services such as online protection, online backup, etc. and their benefits.
 
-## Appendix - Images
+---
 
-<img src="images/project5_images/boxplots.png?_raw=true"/>
+### Appendix
 
 **Figure 1** - Boxplots of tenure, monthly charges, and total charges against churning.
 
-<img src="images/project5_images/binary.png?_raw=true"/>
+<img src="images/project5_images/boxplots.png?_raw=true"/>
 
 **Figure 2** - Barplots of binary variables such as dependents, senior citizenship, etc. against churning.
 
-<img src="images/project5_images/dsl_optic_churn.png?_raw=true"/>
+<img src="images/project5_images/binary.png?_raw=true"/>
 
 **Figure 3** - Barplots of the provided services against churning of the two types of internet services, *DSL* and *Fiber Optic*.
 
-<img src="images/project5_images/dsl_fiber_mc.png?_raw=true"/>
+<img src="images/project5_images/dsl_optic_churn.png?_raw=true"/>
 
 **Figure 4** - Barplots of the provided services against monthly charges of the two types of internet services, *DSL* and *Fiber Optic*. 
 
+<img src="images/project5_images/dsl_fiber_mc.png?_raw=true"/>
+
+**Figure 5** - Plot of the model performance of all the models from the testing and validation sets.
+
 <img src="images/project5_images/roc.png?_raw=true"/>
-
-**Figure 5** - Left: distribution of predicted probabilities under each class. Right: ROC curve with the location of the optimal cutoff point. 
-
-<img src="images/project5_images/performance.png?_raw=true"/>
-
-**Figure 6** - Plot of the model performance of all the models from the testing and validation sets.
-
-
