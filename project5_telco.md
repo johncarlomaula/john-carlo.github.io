@@ -16,7 +16,7 @@ The data has been split into two sets: training set and testing set. Each set ha
 - Customers who have a higher monthly charge and lower tenure tend to churn more (Figure 1).
 - Customers who are not senior citizens, have partners, have dependents, or don't use electronic checks are less likely to churn (Figure 2).
 - Customers with online security, online backup, device protection, and tech support are less likely to churn regardless of the cost and type of internet service (Figures 3 & 4). 
-- Although customers with the *Fiber Optic* internet service are more likely to churn, it's due to the higher cost of that specific service rather than the quality of its services.
+- Although customers with the *Fiber Optic* are more likely to churn, it's due to the higher cost of that specific service rather than the quality of its services.
 
 Based on my findings from EDA, I determined 2 variables that will be useful in predicting churning: **dependents** and **monthly charges**. In addition, I created 3 new features using variables from the dataset:
 
@@ -28,7 +28,7 @@ Thus, a total of 5 predictors will be used to build the model.
 
 ### [Data Modeling](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_model.md)
 
-Due to the binary nature of the response variable, I decided to use logistic regression to build my predictive model. I used the testing set to measure its performance, which resulted in a **79.0% accuracy**. While the accuracy is pretty good, the model has a low **sensitivity of 46.9%**. This means that more than half of customers who churned were misclassfied.
+Due to the binary nature of the response variable, I decided to use logistic regression to build my predictive model. I used the testing set to measure its performance, which resulted in a **79.0% accuracy**. While the accuracy is pretty good, the model has a low **sensitivity of 46.9%**. This means that more than half of customers who churned were misclassified.
 
 Thus, I decided to improve the model in two different ways:
 
@@ -53,13 +53,13 @@ All predictors included in this model were determined to be important in predict
 
 ### Recommendations
 
-While the bootstrapped model is my recommended final model, the other model might be better if the cost of losing a customer greater than the cost of implementing customer retention stragies due to its higher sensitivity. 
+While the bootstrapped model is my recommended final model, the other model might be better if the cost of losing a customer is greater than the cost of implementing customer retention strategies due to its higher sensitivity (i.e., greater performance in identifying churning customers). 
 
 Overall, I recommend the following actions to be taken:
 
 - Focus on customers who have a monthly contract. Offer incentives when signing up for a 1-year or 2-year contract.
 - Overhaul the *Fiber Optic* internet service. It has a higher overall monthly cost, but there does not appear to be a difference in the quality of the services provided when compared to *DSL*. 
-- Examine the electronic check payment channel. If extra costs are are associated with this kind of payment, find a way to decrease it. Another option is to make other methods more convenient.
+- Examine the electronic check payment channel. If extra costs are associated with this kind of payment, find a way to decrease it. Another option is to make other methods more convenient.
 - Properly inform customers about the offered services such as online protection, online backup, etc. and their benefits.
 
 ---
