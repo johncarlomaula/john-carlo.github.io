@@ -9,7 +9,7 @@ The Telco Churn dataset contains information about the customers of Telco, a tel
 The goal of this project is to build a logistic regression model that will predict whether or not a customer will cancel their services based on their features.
 
 
-### Exploratory Data Analysis
+### [Exploratory Data Analysis](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_eda.md)
 
 The data has been split into two sets: training set and testing set. Each set has 2000 rows and 21 variables. After data cleaning, the finalized training set contained 1995 rows and 20 variables with a churning prevalence of 27.3%. My key findings are summarized below: 
 
@@ -18,11 +18,7 @@ The data has been split into two sets: training set and testing set. Each set ha
 - Customers with online security, online backup, device protection, and tech support are less likely to churn regardless of the cost and type of internet service (fig 3 and fig 4). 
 - Although customers with the *Fiber Optic* internet service are more likely to churn, it's due to the higher cost of that specific service rather than the quality of its services.
 
-For more details on EDA, check out the R Markdown notebook [here](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_eda.md).
-
-### Feature Engineering
-
-Based on my findings from EDA, I determine 2 variables that will be useful in predicting churning: **dependents** and **monthly charges**. In addition, I created 3 new features using variables from the dataset:
+Based on my findings from EDA, I determined 2 variables that will be useful in predicting churning: **dependents** and **monthly charges**. In addition, I created 3 new features using variables from the dataset:
 
 1. **Monthly Contract** - whether or not a customer has a *month-to-month* contract
 2. **Has Service** - whether or not a customer has at least ONE of the following variables: *online security*, *online backup*, *device protection*, and *tech support*
@@ -30,20 +26,18 @@ Based on my findings from EDA, I determine 2 variables that will be useful in pr
 
 Thus, a total of 5 predictors will be used to build the model.
 
-### Data Modeling
+### [Data Modeling](https://github.com/johncarlomaula/telco-churn-project/blob/main/telco_model.md)
 
-Due to the binary nature of the response variable, I decided to fit a logistic regression model with the 5 predictors on the training data. Then, I used the testing set to measure its performance. While the accuracy of 79.0% is pretty good, the model has a sensitivity of 46.9%. This means more than half of the churning customers were incorrectly classified.
+Due to the binary nature of the response variable, I decided to use logistic regression to build my predictive model. I used the testing set to measure its performance, which resulted in a **79.0% accuracy**. While the accuracy is pretty good, the model has a low **sensitivity of 46.9%**. This means that more than half of customers who churned were misclassfied.
 
 Thus, I decided to improve the model in two different ways:
 
 1. Changing the probability threshold of classification to maximize sensitivity and specificity.
 2. Bootstrapping samples to achieve a balanced dataset (i.e. 50% prevalence in churning). 
 
+Then, I will use the validation set to measure its final performance. The methodology can be summarized below.
+
 <img src="images/project5_images/methodology.png?_raw=true"/>
-
-Then, I will use the validation set to measure its final performance.
-
-### Model Results
 
 The results of the model performance are summarized in the table below. It's also visualized in Figure 6 in the appendix. 
 
@@ -53,21 +47,15 @@ The results of the model performance are summarized in the table below. It's als
 | Sensitivity | 80.7% | 72.3% |
 | Specificity | 60.0% | 68.6% |
 
-Both models have a lower accuracy than the initial model, but they have a higher sensitivity. Since the bootstrapped model has a higher overall accuracy and specificity, I decided to choose that model has a the final model. However, depending on the costs of customer retention vs the cost of losing a customer, the other model might be better due to its higher sensitivity. 
+Both models have a lower accuracy than the initial model, but they both have higher sensitivity. Since the bootstrapped model has a higher accuracy and specificity, I decided to select that model as the final model. 
 
-For example, if the loss of a customer is more costly than the cost of any implemented customer retention strategies, then this model will be a better option since it ensures that customers who are more likely to churn are identified.
-
-On the other hand, if the cost is about the same, then the bootstrapped model will be a better option since it ensures that as many customers are correctly classified regardless of whether or not they are more likely to churn.
-
-### Feature Importance
-
-Feature importance is a measurement of how important or influential a variable is in predicting churning. One way of measuring influence is by examining the coefficients of the logistic regression model.
-
-For example, **monthly contract** has a coefficient of 1.977 in the model. This means that customers with a monthly contract have a **622% increase** in the odds of churning compared to those who have a 1-year or 2-year contract when all other variables are kept constant. 
-
-All predictors included in the model were determined to be important in predicting churning. 
+All predictors included in the model were determined to be important in predicting churning, with monthly contract being the most influential predictor. Customers who have this type of contract have a **622% greater** odds of churning.
 
 ### Recommendations
+
+While the bootstrapped model is my recommended final model, the other model might be better if the cost of losing a customer greater than the cost of implementing customer retention stragies due to its higher sensitivity. 
+
+Overall, I recommend the following actions to be done:
 
 - Focus on customers who have a monthly contract. Offer incentives when signing up for a 1-year or 2-year contract.
 - Overhaul the *Fiber Optic* internet service. It has a higher overall monthly cost, but there does not appear to be a difference in the quality of the services provided when compared to *DSL*. 
