@@ -12,6 +12,17 @@ In this project, I explored and analyzed a dataset containing information about 
 
 ---
 
+## Is Friday the 13th Associated with More Injuries?
+
+[![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
+
+I explore the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th compared to other dates. 
+
+<img src="images/injury_thumbnail.png?raw=true"/>
+
+---
+
 ## Visualizing My Apple Music Consumption
 
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project4_music)
@@ -54,16 +65,5 @@ In this project, I visualized the Spotify features of Taylor Swift's and compare
 In this project, I analyze Tayor Swift's lyrics in R. I visualized the word frequency and lexical diversity of her music and analyzed the sentiments conveyed by her lyrics using 3 different lexicons: Bing, AFINN, and NRC.
 
 <img src="images/project2_images/lyrics_thumbnail.png?raw=true"/>
-
----
-
-## Is Friday the 13th Associated with More Injuries?
-
-[![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
-
-In this project, I analyze the NEISS dataset to see if more injuries occur during Friday the 13th than other days. I also look at the most common product injuries, more injured body parts, etc.
-
-<img src="images/project6_thumbnail.png?raw=true"/>
 
 ---
