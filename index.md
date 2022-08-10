@@ -57,3 +57,13 @@ In this project, I analyze Tayor Swift's lyrics in R. I visualized the word freq
 
 ---
 
+## Is Friday the 13th Associated with More Injuries?
+
+[![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
+
+In this project, I analyze the NEISS dataset to see if more injuries occur during Friday the 13th than other days. I also look at the most common product injuries, more injured body parts, etc.
+
+<img src="images/project6_thumbnail.png?raw=true"/>
+
+---
