@@ -1,6 +1,16 @@
 # Portfolio
 
 ---
+## Optimizing Agricultural Production 
+
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
+
+In this project, I use K-Means clustering to discover patterns of agriculture data before building a predictive model that will recommend suitable crops to plant depending on a given a set of farming conditions.
+
+<img src="images/crop_thumbnail.png?raw=true"/>
+
+
 ## Predicting Customer Churning using Logistic Regression
 
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
