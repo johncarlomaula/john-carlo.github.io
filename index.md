@@ -8,7 +8,7 @@
 
 In this project, I use K-Means clustering to discover patterns of agriculture data before building a predictive model that will recommend suitable crops to plant depending on a given a set of farming conditions.
 
-<img src="images/crop_thumbnail.png?raw=true"/>
+<img src="images/agriculture_thumbnail.png?raw=true"/>
 
 
 ## Predicting Customer Churning using Logistic Regression
