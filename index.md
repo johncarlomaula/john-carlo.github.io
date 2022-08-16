@@ -3,12 +3,11 @@
 ---
 ## Optimizing Agricultural Production 
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
+[![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/telco-churn-project)
 
-In this project, I use K-Means clustering to discover patterns of agriculture data before building a predictive model that will recommend suitable crops to plant depending on a given a set of farming conditions.
+In this project, I use k-means clustering to discover patterns in agriculture data before building a predictive model to recommend suitable crops to plant depending on a given set of farming conditions.
 
-<img src="images/agriculture_thumbnail.png?raw=true"/>
+<img src="images/project7_images/agriculture_thumbnail.png?raw=true"/>
 
 
 ## Predicting Customer Churning using Logistic Regression
@@ -24,7 +23,7 @@ In this project, I explored and analyzed a dataset containing information about 
 
 ## Is Friday the 13th Associated with More Injuries?
 
-[![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project6_injury)
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project6_injury)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/neiss-injury-project)
 
 I explore the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th compared to other days. 
@@ -69,7 +68,7 @@ In this project, I visualized the Spotify features of Taylor Swift's and compare
 
 ## Analyzing Taylor Swift's Lyrics
 
-[![App](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
+[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
 
 In this project, I analyze Tayor Swift's lyrics in R. I visualized the word frequency and lexical diversity of her music and analyzed the sentiments conveyed by her lyrics using 3 different lexicons: Bing, AFINN, and NRC.
