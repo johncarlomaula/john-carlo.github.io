@@ -1,7 +1,7 @@
 # Portfolio
 
 ---
-## Optimizing Agricultural Production 
+## Optimizing Agriculture Production 
 
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/telco-churn-project)
 
