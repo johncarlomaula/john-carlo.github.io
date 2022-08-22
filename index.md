@@ -40,7 +40,7 @@ I explore the National Electronic Injury Surveillance System (NEISS) dataset fro
 
 I visualized my Apple Music listening history during the time period of Aug. 2020 - Apr. 2021. After retrieving my personal Apple data, I used SQL to organize and clean the data before importing the resulting datasets into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. 
 
-<img src="images/project4_thumbnail.png?raw=true"/>
+<img src="images/music_thumbnail.png?raw=true"/>
 
 ---
 
