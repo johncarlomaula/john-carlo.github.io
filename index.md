@@ -4,6 +4,7 @@
 ## Optimizing Agriculture Production 
 
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/agriculture-project)
 
 In this project, I use k-means clustering to discover patterns in agriculture data before building a predictive model to recommend suitable crops to plant depending on a given set of farming conditions.
 
@@ -34,7 +35,7 @@ I explore the National Electronic Injury Surveillance System (NEISS) dataset fro
 
 ## Visualizing My Apple Music Consumption
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project4_music)
+[![Tableau](https://img.shields.io/badge/Tableau-View%20Dashboard-E97627?logo=Tableau)](https://public.tableau.com/views/AppleMusicActivityDashboard/DASH-TopSongs?:language=en-US&:display_count=n&:origin=viz_share_link)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
 
 I visualized my Apple Music listening history during the time period of Aug. 2020 - Apr. 2021. After retrieving my personal Apple data, I used SQL to organize and clean the data before importing the resulting datasets into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. 
