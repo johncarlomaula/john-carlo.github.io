@@ -3,7 +3,7 @@
 ---
 ## Optimizing Agriculture Production 
 
-[![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/telco-churn-project)
+[![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
 
 In this project, I use k-means clustering to discover patterns in agriculture data before building a predictive model to recommend suitable crops to plant depending on a given set of farming conditions.
 
