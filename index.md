@@ -74,6 +74,6 @@ In this project, I compared the Spotify features of Taylor Swift’s albums and 
 
 In this project, I visualized the word frequency and lexical diversity of Taylor Swift’s lyrics and analyzed the sentiments conveyed by her lyrics using 3 lexicons: Bing, AFINN, and NRC.
 
-<img src="images/thumbnails/project2_thumbnail_v2.png?raw=true"/>
+<img src="images/thumbnails/project2_thumbnail.png?raw=true"/>
 
 ---
