@@ -8,7 +8,7 @@
 
 In this project, I use k-means clustering to discover patterns in agriculture data before building a predictive model to recommend suitable crops to plant depending on a given set of farming conditions.
 
-<img src="images/project7_images/agriculture_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project7_thumbnail.png?raw=true"/>
 
 
 ## Predicting Customer Churning using Logistic Regression
@@ -18,7 +18,7 @@ In this project, I use k-means clustering to discover patterns in agriculture da
 
 In this project, I explored and analyzed a dataset containing information about customers of a telecommunications company. Then, I built a logistic regression model to predict whether or not a customer will unsubscribe from the company, also known as "churning", based on their features. My initial model had an accuracy of 79.0% but a sensitivity of 46.9%. I was able to improve sensitivity to 72.3% (+25.4%) at the cost of a 9.4% decrease in accuracy.
 
-<img src="images/project5_images/telco_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project5_thumbnail.png?raw=true"/>
 
 ---
 
@@ -29,7 +29,7 @@ In this project, I explored and analyzed a dataset containing information about 
 
 I explore the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th compared to other days. 
 
-<img src="images/injury_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project6_thumbnail.png?raw=true"/>
 
 ---
 
@@ -40,7 +40,7 @@ I explore the National Electronic Injury Surveillance System (NEISS) dataset fro
 
 I visualized my Apple Music listening history during the time period of Aug. 2020 - Apr. 2021. After retrieving my personal Apple data, I used SQL to organize and clean the data before importing the resulting datasets into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. 
 
-<img src="images/music_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project4_thumbnail.png?raw=true"/>
 
 ---
 
@@ -51,7 +51,7 @@ I visualized my Apple Music listening history during the time period of Aug. 202
 
 Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
 
-<img src="images/app_thumbnail.png?raw=true"/>
+![project3-thumbnail](https://github.com/johncarlomaula/johncarlomaula.github.io/blob/master/images/thumbnails/project3_thumbnail.gif)
 
 ---
 
@@ -63,7 +63,7 @@ Using Streamlit, I developed a web app with a user-friendly interface to visuali
 
 In this project, I visualized the Spotify features of Taylor Swift's and compared her albums to each other. I also built a web app with Streamlit to compare the features of her re-recordings with the original. Features of the app include the ability to select an album or individual song, and the ability to filter which features to display.
 
-<img src="images/project1_images/swift_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
 
 ---
 
@@ -74,6 +74,6 @@ In this project, I visualized the Spotify features of Taylor Swift's and compare
 
 In this project, I analyze Tayor Swift's lyrics in R. I visualized the word frequency and lexical diversity of her music and analyzed the sentiments conveyed by her lyrics using 3 different lexicons: Bing, AFINN, and NRC.
 
-<img src="images/project2_images/lyrics_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project2_thumbnail.png?raw=true"/>
 
 ---
