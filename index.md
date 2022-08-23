@@ -6,7 +6,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/agriculture-project)
 
-In this project, I use k-means clustering to discover patterns in agriculture data before building a predictive model to recommend suitable crops to plant depending on a given set of farming conditions.
+In this project, I used clustering to discover patterns in agriculture data before building a predictive model that recommends a suitable crop to plant depending on a given set of farming conditions. 
 
 <img src="images/thumbnails/project7_thumbnail.png?raw=true"/>
 
@@ -16,7 +16,7 @@ In this project, I use k-means clustering to discover patterns in agriculture da
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
 
-In this project, I explored and analyzed a dataset containing information about customers of a telecommunications company. Then, I built a logistic regression model to predict whether or not a customer will unsubscribe from the company, also known as "churning", based on their features. My initial model had an accuracy of 79.0% but a sensitivity of 46.9%. I was able to improve sensitivity to 72.3% (+25.4%) at the cost of a 9.4% decrease in accuracy.
+In this project, I analyzed a dataset about customers of a telecommunications company and built a logistic regression model to predict customer churning based on their features.
 
 <img src="images/thumbnails/project5_thumbnail.png?raw=true"/>
 
@@ -38,7 +38,7 @@ I explore the National Electronic Injury Surveillance System (NEISS) dataset fro
 [![Tableau](https://img.shields.io/badge/Tableau-View%20Dashboard-E97627?logo=Tableau)](https://public.tableau.com/views/AppleMusicActivityDashboard/DASH-TopSongs?:language=en-US&:display_count=n&:origin=viz_share_link)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
 
-I visualized my Apple Music listening history during the time period of Aug. 2020 - Apr. 2021. After retrieving my personal Apple data, I used SQL to organize and clean the data before importing the resulting datasets into Tableau and visualizing the data. Some metrics I explored include my top artists, top genre, and monthly hours spent listening to music. 
+I build a Tableau dashboard to visualize and analyze my Apple Music listening activity. 
 
 <img src="images/thumbnails/project4_thumbnail.png?raw=true"/>
 
@@ -49,7 +49,7 @@ I visualized my Apple Music listening history during the time period of Aug. 202
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-spotify-features-visualizer-app-app-0l4de8.streamlitapp.com/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-app)
 
-Using Streamlit, I developed a web app with a user-friendly interface to visualize Spotify music data. I also gave the option for users to download their own data to visualize. Data can be displayed via interactive histograms, box plots, scatterplots, and polar charts produced from Plotly with the ability to compare artists and albums. Example plots are shown below. 
+In this project, I developed a web app with a user-friendly interface using Streamlit to visualize Spotify music data with the option for users to download and visualize their own data.
 
 <img src="images/thumbnails/project3_thumbnail.png?raw=true"/>
 
@@ -61,7 +61,7 @@ Using Streamlit, I developed a web app with a user-friendly interface to visuali
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
 
-In this project, I visualized the Spotify features of Taylor Swift's and compared her albums to each other. I also built a web app with Streamlit to compare the features of her re-recordings with the original. Features of the app include the ability to select an album or individual song, and the ability to filter which features to display.
+In this project, I compared the Spotify features of Taylor Swift’s albums and built a web app using Streamlit to compare the features of her re-recordings with the original. 
 
 <img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
 
@@ -72,7 +72,7 @@ In this project, I visualized the Spotify features of Taylor Swift's and compare
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
 
-In this project, I analyze Tayor Swift's lyrics in R. I visualized the word frequency and lexical diversity of her music and analyzed the sentiments conveyed by her lyrics using 3 different lexicons: Bing, AFINN, and NRC.
+In this project, I visualized the word frequency and lexical diversity of Taylor Swift’s lyrics and analyzed the sentiments conveyed by her lyrics using 3 lexicons: Bing, AFINN, and NRC.
 
 <img src="images/thumbnails/project2_thumbnail.png?raw=true"/>
 
