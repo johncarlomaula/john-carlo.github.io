@@ -13,7 +13,7 @@ In this project, I used clustering to discover patterns in agriculture data befo
 
 ## Predicting Customer Churning using Logistic Regression
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project5_telco)
+[![Presentation](https://img.shields.io/badge/Presentation-View%20Slides-blue)](pdf/telco_churn.pdf)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
 
 In this project, I analyzed a dataset about customers of a telecommunications company and built a logistic regression model to predict customer churning based on their features.
