@@ -24,7 +24,7 @@ In this project, I analyzed a dataset about customers of a telecommunications co
 
 ## Is Friday the 13th Associated with More Injuries?
 
-[![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project6_injury)
+[![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/neiss-injury-project/blob/main/analysis.ipynb)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/neiss-injury-project)
 
 I explore the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th compared to other days. 
