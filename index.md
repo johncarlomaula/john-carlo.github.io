@@ -51,7 +51,7 @@ I build a Tableau dashboard to visualize and analyze my Apple Music listening ac
 
 In this project, I developed a web app with a user-friendly interface using Streamlit to visualize Spotify music data with the option for users to download and visualize their own data.
 
-<img src="images/thumbnails/project3_thumbnail.gif" width="1024" height="768"/>
+<img src="images/thumbnails/project3_thumbnail.gif?raw=true" class="center"/>
 
 ---
 
