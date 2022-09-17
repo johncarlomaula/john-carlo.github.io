@@ -1,6 +1,18 @@
 # Portfolio
 
 ---
+
+## Classifying Images of Sea Animals
+
+[![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/sea-animal-classification/blob/main/image_classifier.ipynb)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/sea-animal-classification)
+
+In this project, I built a convolutional neural network model to classify images of sea animals using the Tensorflow library.
+
+<img src="images/thumbnails/project8_thumbnail.png?raw=true"/>
+
+---
+
 ## Optimizing Agriculture Production 
 
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
@@ -10,6 +22,7 @@ In this project, I used clustering to discover patterns in agriculture data befo
 
 <img src="images/thumbnails/project7_thumbnail.png?raw=true"/>
 
+---
 
 ## Predicting Customer Churning using Logistic Regression
 
