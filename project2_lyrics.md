@@ -1,4 +1,4 @@
-# Analyzing The Spotify Features of Taylor Swift's Music
+# Analyzing Taylor Swift's Lyrics
 
 **Project Description:** In this project, I analyze the lyrics of Taylor Swift's music.
 
