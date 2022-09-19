@@ -62,7 +62,9 @@ I build a Tableau dashboard to visualize and analyze my Apple Music listening ac
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-spotify-features-visualizer-app-app-0l4de8.streamlitapp.com/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/spotify-features-visualizer-app)
 
-In this project, I developed a web app with a user-friendly interface using Streamlit to visualize Spotify music data with the option for users to download and visualize their own data.
+In this project, I developed a web app to visualize Spotify features of music with the option for users to download and visualize their own data. Data can be displayed via interactive plots such as histograms and polar charts with the ability to compare different artists and albums. 
+
+Tools: Python, streamlit, spotipy, plotly
 
 <img src="images/thumbnails/project3_thumbnail_v2.gif?raw=true" class="center"/>
 
