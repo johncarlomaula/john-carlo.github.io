@@ -29,7 +29,7 @@ In this project, I used clustering to discover patterns in agriculture data befo
 [![Presentation](https://img.shields.io/badge/Presentation-View%20Slides-blue)](pdf/telco_churn_slides.pdf)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
 
-I analyzed a dataset of telecom customers and built a model to predict churning based on their features. Customers who have a monthly contract, higher monthly charge, and Fiber Optic as their ISP are more likely to churn. With bootstrapping, I was able to build a model with a sensitivity of 72% at the cost of a lower accuracy of 70%. This can be useful for identifying customers who are likely to churn to implement appropriate retention strategies. 
+I analyzed a dataset of telecom customers and built a model to predict churning based on their features. Customers who have a monthly contract, higher monthly charge, and Fiber Optic as their ISP are more likely to churn. With bootstrapping, I was able to build a model with a sensitivity of 72% at the cost of a lower accuracy of 70%, which can be useful for identifying customers who are more likely to churn and implementing appropriate retention strategies.
 
 **Tools:** R, Tidyverse, Caret
 
