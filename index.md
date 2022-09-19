@@ -74,7 +74,9 @@ In this project, I developed a web app with a user-friendly interface using Stre
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
 
-In this project, I compared the Spotify features of Taylor Swift’s albums and built a web app using Streamlit to compare the features of her re-recordings with the original. 
+**Tools:** Python, pandas, streamlit, spotipy
+
+I analyzed Taylor Swift’s Spotify features to quantify the characteristics of her music and compare her albums. Her country albums had the highest loudness and energy while her pop albums had the most danceability. In addition, her album *Lover* showed the most variability in these features. I also developed a web app to compare the features of her re-recordings with the original. As her goal was to capture the essence of the original tracks, the overall features between the two versions remained mostly the same with some minor differences in certain songs.
 
 <img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
 
@@ -85,7 +87,9 @@ In this project, I compared the Spotify features of Taylor Swift’s albums and 
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project2_lyrics)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-lyrics-project)
 
-In this project, I visualized the word frequency and lexical diversity of Taylor Swift’s lyrics and analyzed the sentiments conveyed by her lyrics using 3 lexicons: Bing, AFINN, and NRC.
+I visualized the word frequency and lexical diversity of Taylor Swift’s lyrics and analyzed the sentiments conveyed by her lyrics. I found that her music is primarily about love and relationships with the most common words being "love", "time", and "baby". Her lyrics convey a much more positive sentiment compared to negative, exhibiting her positive outlook toward love and relationships.
+
+**Tools:** R, dplyr, ggplot2
 
 <img src="images/thumbnails/project2_thumbnail.png?raw=true"/>
 
