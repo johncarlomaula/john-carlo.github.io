@@ -64,7 +64,7 @@ I build a Tableau dashboard to visualize and analyze my Apple Music listening ac
 
 In this project, I developed a web app to visualize Spotify features of music with the option for users to download and visualize their own data. Data can be displayed via interactive plots such as histograms and polar charts with the ability to compare different artists and albums. 
 
-Tools: Python, streamlit, spotipy, plotly
+**Tools:** Python, streamlit, spotipy, plotly
 
 <img src="images/thumbnails/project3_thumbnail_v2.gif?raw=true" class="center"/>
 
@@ -76,9 +76,11 @@ Tools: Python, streamlit, spotipy, plotly
 [![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
 
-**Tools:** Python, pandas, streamlit, spotipy
+I analyzed Taylor Swift’s Spotify features to quantify the characteristics of her music and compare her albums. Her country albums had the highest loudness and energy while her pop albums had the most danceability. In addition, her album *Lover* showed the most variability in these features. 
 
-I analyzed Taylor Swift’s Spotify features to quantify the characteristics of her music and compare her albums. Her country albums had the highest loudness and energy while her pop albums had the most danceability. In addition, her album *Lover* showed the most variability in these features. I also developed a web app to compare the features of her re-recordings with the original. As her goal was to capture the essence of the original tracks, the overall features between the two versions remained mostly the same with some minor differences in certain songs.
+I also developed a web app to compare the features of her re-recordings with the original. As her goal was to capture the essence of the original tracks, the overall features between the two versions remained mostly the same with some minor differences in certain songs.
+
+**Tools:** Python, pandas, streamlit, spotipy
 
 <img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
 
