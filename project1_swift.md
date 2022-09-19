@@ -148,7 +148,7 @@ The songs *All Too Well*, *We Are Never Ever Getting Back Together*, and *Ronan*
 
 ## Conclusion
 
-As Taylor Swift is my most listened to artist, many of these results were not surprising. Her songs tend to have a longer length due that decreased when she transitioned to mainstream pop music. Her earlier albums, which are under the country genre, had the highest loudness and energy while her pop albums had the highest danceability. Her newest albums, which are under the alternative genre, had the highest acousticness but the lowest danceability, energy, and loudness.
+As Taylor Swift is my most listened to artist, many of these results were not surprising. Her songs tend to have a longer length that decreased when she transitioned to mainstream pop music. Her earlier albums, which are under the country genre, had the highest loudness and energy while her pop albums had the highest danceability. Her newest albums, which are under the alternative genre, had the highest acousticness but the lowest danceability, energy, and loudness.
 
 Despite this, there were some unexpected moments throughout the analysis. Her 7th album, ***Lover***, showed the most variability in several features including danceability, acousticness, tempo, and energy. I always found this album to be as sonically cohesive as her other albums. *Dress* having one of the lowest valence was also surprising as it is a love song. The most surprising result was *Soon You'll Get Better* having the highest tempo. I think it could be an error in the data!
 
