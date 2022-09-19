@@ -40,7 +40,9 @@ In this project, I analyzed a dataset about customers of a telecommunications co
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/neiss-injury-project/blob/main/analysis.ipynb)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/neiss-injury-project)
 
-I explore the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th compared to other days. 
+I explored the National Electronic Injury Surveillance System (NEISS) dataset from the last 5 years to see if more injuries occur on Friday the 13th, a day associated with bad luck, compared to other days. Out of 1.8 million injuries, only 8,406 occurred on Friday the 13th, which happened 9 times during this time period. Overall, there seems to be no association with the number of injuries and Friday the 13th. It appears to be more associated with the time of year, with more injuries occurring during the summer. 
+
+**Tools:** Python, Pandas, Seaborn, Matplotlib
 
 <img src="images/thumbnails/project6_thumbnail.png?raw=true"/>
 
@@ -51,7 +53,9 @@ I explore the National Electronic Injury Surveillance System (NEISS) dataset fro
 [![Tableau](https://img.shields.io/badge/Tableau-View%20Dashboard-E97627?logo=Tableau)](https://public.tableau.com/views/AppleMusicActivityDashboard/DASH-TopSongs?:language=en-US&:display_count=n&:origin=viz_share_link)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
 
-I build a Tableau dashboard to visualize and analyze my Apple Music listening activity. 
+I built a Tableau dashboard of my Apple Music listening activity from the last 2 years to display a breakdown of my music consumption and my listening habits over time. During this time period, I listened to 2,623 hours of music with Taylor Swift being my most listened to artist at 581 hours. The amount of time I spend listening to music is highly dependent on my favorite artists releasing new music or me discovering a new artist/album I enjoy.
+
+**Tools:** Tableau, SQL
 
 <img src="images/thumbnails/project4_thumbnail.png?raw=true"/>
 
@@ -64,7 +68,7 @@ I build a Tableau dashboard to visualize and analyze my Apple Music listening ac
 
 In this project, I developed a web app to visualize Spotify features of music with the option for users to download and visualize their own data. Data can be displayed via interactive plots such as histograms and polar charts with the ability to compare different artists and albums. 
 
-**Tools:** Python, streamlit, spotipy, plotly
+**Tools:** Python, Streamlit, Pandas, Plotly, Spotipy
 
 <img src="images/thumbnails/project3_thumbnail_v2.gif?raw=true" class="center"/>
 
@@ -80,7 +84,7 @@ I analyzed Taylor Swift’s Spotify features to quantify the characteristics of 
 
 I also developed a web app to compare the features of her re-recordings with the original. As her goal was to capture the essence of the original tracks, the overall features between the two versions remained mostly the same with some minor differences in certain songs.
 
-**Tools:** Python, pandas, streamlit, spotipy
+**Tools:** Python, Pandas, Matplotlib, Seaborn, Streamlit, Spotipy
 
 <img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
 
@@ -93,7 +97,7 @@ I also developed a web app to compare the features of her re-recordings with the
 
 I visualized the word frequency and lexical diversity of Taylor Swift’s lyrics and analyzed the sentiments conveyed by her lyrics. I found that her music is primarily about love and relationships with the most common words being "love", "time", and "baby". Her lyrics convey a much more positive sentiment compared to negative, exhibiting her positive outlook toward love and relationships.
 
-**Tools:** R, dplyr, ggplot2
+**Tools:** R, Tidyverse
 
 <img src="images/thumbnails/project2_thumbnail.png?raw=true"/>
 
