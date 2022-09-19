@@ -18,7 +18,9 @@ In this project, I built a convolutional neural network model to classify images
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/agriculture-project)
 
-In this project, I used clustering to discover patterns in agriculture data before building a predictive model that recommends a suitable crop to plant depending on a given set of farming conditions. 
+I used clustering to discover patterns in data of 22 different crops before building a model that recommends a suitable crop to plant given a set of farming conditions for optimal agriculture production. The k-means algorithm did well in determining which crops share similar environmental conditions with NPK ratios and humidity being the most distinguishing variables. Using the random forest algorithm, I was able to achieve 99.9% accuracy in my model.
+
+**Tools:** Python, Scikit-learn, Matplotlib, Seaborn, Numpy
 
 <img src="images/thumbnails/project7_thumbnail.png?raw=true"/>
 
