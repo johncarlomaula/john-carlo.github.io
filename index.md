@@ -2,12 +2,27 @@
 
 ---
 
+## Predicting Customer Churning using Logistic Regression
+
+[![Presentation](https://img.shields.io/badge/Presentation-View%20Slides-blue)](pdf/telco_churn_slides.pdf)
+[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
+
+I analyzed a dataset of telecom customers and built a model to predict churning based on their features. Customers who have a monthly contract, higher monthly charge, and Fiber Optic as their ISP are more likely to churn. With bootstrapping, I was able to build a model with a sensitivity of 72% at the cost of a lower accuracy of 70%, which can be useful for identifying customers who are more likely to churn and implementing appropriate retention strategies.
+
+**Tools:** R, Tidyverse, Caret
+
+<img src="images/thumbnails/project5_thumbnail.png?raw=true"/>
+
+---
+
 ## Classifying Images of Sea Animals
 
 [![Jupyter](https://img.shields.io/badge/Jupyter-View%20Notebook-F37626?logo=Jupyter)](https://github.com/johncarlomaula/sea-animal-classification/blob/main/image_classifier.ipynb)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/sea-animal-classification)
 
-In this project, I built a convolutional neural network model to classify images of sea animals using the Tensorflow library.
+I built a convolutional neural network model to classify images of sea animals using a dataset of 11.7k images with 19 types of sea animals. My initial model had a test accuracy of 37%, but by adding more layers and utilizing data augmentation, I was able to achieve an accuracy of 49%. The models generally performed well in classifying turtles/tortoises, sea urchins, jellyfish, crabs, and starfish with F1-scores of 0.62 - 0.80.
+
+**Tools:** Python, Tensorflow, Scikit-learn, Numpy
 
 <img src="images/thumbnails/project8_thumbnail.png?raw=true"/>
 
@@ -23,19 +38,6 @@ I used clustering to discover patterns in data of 22 different crops before buil
 **Tools:** Python, Scikit-learn, Matplotlib, Seaborn, Numpy
 
 <img src="images/thumbnails/project7_thumbnail.png?raw=true"/>
-
----
-
-## Predicting Customer Churning using Logistic Regression
-
-[![Presentation](https://img.shields.io/badge/Presentation-View%20Slides-blue)](pdf/telco_churn_slides.pdf)
-[![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/telco-churn-project)
-
-I analyzed a dataset of telecom customers and built a model to predict churning based on their features. Customers who have a monthly contract, higher monthly charge, and Fiber Optic as their ISP are more likely to churn. With bootstrapping, I was able to build a model with a sensitivity of 72% at the cost of a lower accuracy of 70%, which can be useful for identifying customers who are more likely to churn and implementing appropriate retention strategies.
-
-**Tools:** R, Tidyverse, Caret
-
-<img src="images/thumbnails/project5_thumbnail.png?raw=true"/>
 
 ---
 
