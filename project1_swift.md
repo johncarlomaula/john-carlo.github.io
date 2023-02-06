@@ -23,7 +23,12 @@ The distribution of length appears to be right-skewed with an average length of 
 
 <img src="images/project1_images/length_plot.png?raw=true"/>
 
-Her top 3 longest songs, *Dear John* (6:43), *Last Kiss* (6:07), and *Enchanted* (5:52) are all from the album ***Speak Now*** while her shortest songs, *Glitch* (2:28) and *It's Nice To Have A Friend* (2:30), are from ***Midnights*** and ***Lover***, respectively. Although not included in here, her longest song is *All Too Well (10 Minute Version)* from ***Red (Taylor's Version)***, clocking in at 10:13.
+Her top 3 longest songs, which are all from the album ***Speak Now*** are:
+1. *Dear John* (6:43)
+2. *Last Kiss* (6:07)
+3. *Enchanted* (5:52) 
+
+Her shortest songs, *Glitch* (2:28) and *It's Nice To Have A Friend* (2:30), are from ***Midnights*** and ***Lover***, respectively. Although not included in here, her longest song is *All Too Well (10 Minute Version)* from ***Red (Taylor's Version)***, clocking in at 10:13.
 
 ### Popularity
 *The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are*.
@@ -32,7 +37,13 @@ As of February 5, 2023, her most popular albums are ***reputation***, ***Lover**
 
 <img src="images/project1_images/popularity_plot.png?raw=true"/>
 
-As of now, her most popular songs on Spotify are *Don't Blame Me*, *Lover*, *Cruel Summer*, *"Would've, Could've, Should've"*, and *Paper Rings*.
+As of now, her most popular songs on Spotify are:
+
+1. *Don't Blame Me*
+2. *Lover*
+3. *Cruel Summer*
+4. *Would've, Could've, Should've*
+5. *Paper Rings*.
 
 ### Danceability
 *Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable*.
@@ -50,7 +61,7 @@ The distribution of acousticness is strongly right-skewed with a median of 0.17 
 
 <img src="images/project1_images/acousticness_plot.png?raw=true"/>
 
-Her most acoustic songs are *It's Nice To Have A Friend*, *Sweet Nothing*, and *hoax*. Many of her songs have an acousticness equal to 0.
+Her most acoustic songs are *It's Nice To Have A Friend* (0.97), *Sweet Nothing* (0.97), and *hoax* (0.96). Many of her songs have an acousticness equal to 0.
 
 ### Energy
 *Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy*.
