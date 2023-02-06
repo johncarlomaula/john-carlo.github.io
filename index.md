@@ -92,7 +92,7 @@ I also developed a web app to compare the features of her re-recordings with the
 
 **Tools:** Python, Pandas, Matplotlib, Seaborn, Streamlit, Spotipy
 
-<img src="images/thumbnails/project1_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project1_thumbnail_v2.png?raw=true"/>
 
 ---
 
