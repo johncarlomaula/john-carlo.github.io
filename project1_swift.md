@@ -19,7 +19,7 @@ For a complete definition of the Spotify features, you can visit the Spotify API
 ### Length
 *Song length is the duration of the track in minutes*. 
 
-The distribution of length appears to be right-skewed with an average length of **4 minutes**. Due to her storytelling style of songwriting, her songs tend to have a longer length. As she transitioned to pop music with ***1989***, the overall length of her music began to decrease. Her albums ***folklore*** and ***evermore*** saw a return in her storytelling form, which resulted in longer songs. Her return to the pop genre with ***Midnights*** saw another decrease in song length.
+The distribution of length appears to be right-skewed with an average length of **4 minutes**. Due to her storytelling style of songwriting, her songs tend to have a longer length. As she transitioned to pop music with ***1989***, the overall length of her music began to decrease. Her albums ***folklore*** and ***evermore*** saw a return in her storytelling form, which resulted in longer songs. Her return to the pop genre with ***Midnights*** saw another decrease in overall song length.
 
 <img src="images/project1_images/length_plot.png?raw=true"/>
 
