@@ -56,14 +56,14 @@ I explored the National Electronic Injury Surveillance System (NEISS) dataset fr
 
 ## Visualizing My Apple Music Consumption
 
-[![Tableau](https://img.shields.io/badge/Tableau-View%20Dashboard-E97627?logo=Tableau)](https://public.tableau.com/views/AppleMusicActivityDashboard/DASH-TopSongs?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![Tableau](https://img.shields.io/badge/Tableau-View%20Dashboard-E97627?logo=Tableau)](https://public.tableau.com/views/AppleMusicActivityDashboardv2/DASH-TopSongs?:language=en-US&:display_count=n&:origin=viz_share_link)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/apple-music-activity-project)
 
-I built a Tableau dashboard of my Apple Music listening activity from the last 2 years to display a breakdown of my music consumption and my listening habits over time. During this time period, I listened to 2,623 hours of music with Taylor Swift being my most listened to artist at 581 hours. The amount of time I spend listening to music is highly dependent on my favorite artists releasing new music or me discovering a new artist/album I enjoy.
+I built a Tableau dashboard of my Apple Music listening activity from the last ~2.5 years to display a breakdown of my music consumption and my listening habits over time. During this time period, I listened to 3,405 hours of music with Taylor Swift being my most listened to artist at 702 hours. The amount of time I spend listening to music is highly dependent on my favorite artists releasing new music or me discovering a new artist/album I enjoy.
 
 **Tools:** Tableau, SQL
 
-<img src="images/thumbnails/project4_thumbnail.png?raw=true"/>
+<img src="images/thumbnails/project4_thumbnail_v2.png?raw=true"/>
 
 ---
 
