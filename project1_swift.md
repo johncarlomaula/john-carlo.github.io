@@ -1,6 +1,6 @@
 # Analyzing The Spotify Features of Taylor Swift's Music
 
-**Project Description:** In this project, I retrieve Spotify features of Taylor Swift's music using the Spotipy library and visualized them for analysis. I also developed a web app that compares the features of her re-recorded music with the original.
+**Project Description:** In this project, I retrieved Spotify features of Taylor Swift's music using the Spotipy library and visualized them for analysis. I also developed a web app that compares the features of her re-recorded music with the original.
 
 <img src="images/project1_images/swift.png?raw=true"/>
 
@@ -40,7 +40,7 @@ Although not included in here, her longest song is *All Too Well (10 Minute Vers
 ### Popularity
 *The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are*.
 
-As of February 5, 2023, her most popular albums are *reputation*, *Lover*, and *Midnights*. As these are pop albums that have been promoted heavily, it makes sense that they are still popular among the general population. Her least popular albums are *Fearless* and *Red* due to the re-recordings of these albums being released. TikTok can also have a significant influence on a song's popuarity.
+As of February 5, 2023, her most popular albums are *reputation*, *Lover*, and *Midnights*. As these are pop albums that have been promoted heavily, it makes sense that they are still popular among the general population. Her least popular albums are *Fearless* and *Red* due to the re-recordings of these albums being released. TikTok can also have a significant influence on a song's popularity.
 
 <img src="images/project1_images/popularity_plot.png?raw=true"/>
 
@@ -56,7 +56,7 @@ As of now, her most popular songs on Spotify are:
 ### Danceability
 *Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable*.
 
-The distribution of danceability is unimodal and symmetric with a mean of 0.59 and standard deviation of 0.12. Her albums tend to become to become more danceable until *folklore*, where overall danceability began to decrease. Her return to pop with *Midnights* shows an increase in danceability.
+The distribution of danceability is unimodal and symmetric with a mean of 0.59 and standard deviation of 0.12. Her albums tended to become to become more danceable until *folklore*, where overall danceability began to decrease. Her return to pop with *Midnights* shows an increase in danceability.
 
 <img src="images/project1_images/danceability_plot.png?raw=true"/>
 
@@ -167,7 +167,7 @@ Many of her songs have a speechiness between 0 and 0.1, with 0.02 being the mini
 ### Tempo
 *The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration*.
 
-The distribution of tempo is unimodal and fairly symmetric with an average of 123.0 bpm and a standard deviation of 31.1 bpm. All her albums tend to to be distributed around the overall mean. However, the overall tempo for *Red*, *Lover*, and *Midnights* is slightly lower while the overall tempo for *Speak Now* is slightly higher.
+The distribution of tempo is unimodal and fairly symmetric with an average of 123.0 bpm and a standard deviation of 31.1 bpm. All her albums tend to be distributed around the overall mean. However, the overall tempo for *Red*, *Lover*, and *Midnights* is slightly lower while the overall tempo for *Speak Now* is slightly higher.
 
 <img src="images/project1_images/tempo_plot.png?raw=true"/>
 
