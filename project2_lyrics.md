@@ -45,7 +45,7 @@ The **bing lexicon** categorizes words into positive and negative categories. Us
 
 <img src="images/project2_images/pos_neg_sent.png?_raw=true"/>
 
-The words that contribute the most to the positive sentiment of her lyrics are "like", "love", "right", and "good". Words that contribute to the negative sentiment are "bad", "break", "shake", and "lost". There are significantly more occurences of positive words in her lyrics with the top 3 positive words occurring 440, 251, and 124 times while the top negative word occurs only 74 times. 
+The words that contribute the most to the positive sentiment of her lyrics are "like", "love", "right", and "good". Words that contribute to the negative sentiment are "bad", "break", "shake", and "lost". There are significantly more occurrences of positive words in her lyrics with the top 3 positive words occurring 440, 251, and 124 times while the top negative word occurs only 74 times. 
 
 ### Emotion Association with the NRC Lexicon
 
