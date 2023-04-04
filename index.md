@@ -63,7 +63,7 @@ I built a Tableau dashboard of my Apple Music listening activity from the last ~
 
 **Tools:** Tableau, SQL
 
-<img src="images/thumbnails/project4_thumbnail_v2.png?raw=true"/>
+<img src="images/thumbnails/project4_thumbnail_v3.png?raw=true"/>
 
 ---
 
