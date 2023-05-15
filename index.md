@@ -83,7 +83,7 @@ In this project, I developed a web app to visualize Spotify features of music wi
 ## Analyzing Spotify Features of Taylor Swift's Albums
 
 [![Blog](https://img.shields.io/badge/Blog-View%20Blog-blue)](/project1_swift)
-[![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com/)
+[![App](https://img.shields.io/badge/App-Open%20App-blue)](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-zcv5ur.streamlit.app/)
 [![Github](https://img.shields.io/badge/Github-View%20on%20Github-green?logo=Github)](https://github.com/johncarlomaula/taylorswift-spotify-features-project)
 
 I analyzed Taylor Swift’s Spotify features to quantify the characteristics of her music and compare her albums. Her country albums had the highest loudness and energy while her pop albums had the most danceability. In addition, her album *Lover* showed the most variability in these features. 
